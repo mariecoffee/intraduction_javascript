@@ -1,0 +1,187 @@
+----------Decouverte de JS---------
+
+---Le wagon ---JS pour les débutants---
+
+work shop pour dédramatiser le code.
+
+--- on va partir de la base---
+lets talk about js
+
+-js est un langage assez jeune.
+- s'execute dans le navigateur sur notre machine
+
+1er exemple, afficher bonjour en pop up
+alert ("bonjour");
+
+----Tjs coder du JS dans une page annexe a l'index, tout comme quand on code du css---
+
+relier index a script avec une balise script:
+<script src="script.js"></script>
+
+tjs utiliser le triple égal en javascript ===
+
+en gros les 3 pilliers d'un laguage de programmation:
+
+----------- creer des variables!! ----------->> stocker des choses dans des boites
+----------- les conditions !!! ------------->> if else, si blablabla, alors blablabal sinon blablbla 
+----------- et boucler avec for ou while -------->> vérifier des conditions
+
+
+
+--------- les fonctions------
+
+isoler un bloc de code et le reutiliser
+
+utilisation de jquery
+ajax communication du navigateur apres ouverture de page, comme tweeter qui nous signale x nouveau tweet
+
+----------ressources MDN mozilla -----------
+
+librairie js de bootstrap
+
+--------------
+la console 
+
+--alert ("hello");
+-- console.log ("etape 1");
+quand on fait entrée a ce moment la etape 1 s'affiche dans la console
+
+
+---------var---
+
+on créé une variable var
+on lui donne un nom ici name (var name)
+puis on lui donne une valeur var name = "clément";
+
+ici la valeur "clément" est une string, c'est a dire une chaine de caractère.
+une suite de caractère. 
+
+un autre type de variable qui existe c'est les nombres, Numbers.
+nombre entier  	// nombre décimaux
+var x = 12	//  var x = 25.63
+
+les nombres ne sont pas des string, ils s'afficheront en bleu dans la console 
+alors que les strings s'afficheront en noir.
+
+Mais on peut faire passer des nombres en string avec
+1) var x = 12
+console.log (x); ------ici 12 est en bleu---
+
+2) var xToString = x.toString();
+console.log (xToString);  ---- ici 12 est en noir car on a passé le nombre en string
+
+
+
+une string sera tjs ecrite en guillement, soit double guillement soit le simple guillement.
+
+les strings ont une propriété bcp utilisés, c'est la propriété lenght
+
+par exemple:
+
+var name = "clement";
+
+var nameLength = name.length
+
+console.log (nameLength);
+
+résultat affiché est 7
+
+-----------plusieurs fonctions utilisés avec string---
+si par exemple dans la string 
+
+var myString = "salut Clément";
+
+Je veux savoir a quelle position de trouve "Clément",
+
+je fais:  var position = myString.indexOf ("Clément");
+
+console.log (position)
+cela affichera 6
+
+!!!!!!!!!!!!!!!!!
+dans ce nouvel exemple, on veut remplacer le mot Clément par le mot Flavie
+
+exemple:
+
+Var myString = "Bienvenue Clément";
+var myNewString = myString.replace ("Clément", "Flavie");
+console.log (myNewString);
+
+cela affiche Bienvenue Flavie
+
+!!!!!!!!!!!!!!!!!!!
+
+3eme exemple
+
+on peut mettre des string a la suite des autres, voyons voir:
+
+var string1 = "Bonjour";
+var string2 = "Clément";
+
+var stringResultat = string1 + string2;
+
+console.log (stringResultat);
+
+cela affiche : BonjourClément
+
+on peut rajouter une string " " pour faire insérer un espace entre bonjour et clément.
+
+NOUS AVONS FAIT ICI CONNAISSANCE AVEC LES NUMBERS ET LES STRINGS.
+
+
+-----------------LES OPERATEURS---------
+
+
+= qui permet de mettre une valeur dans une variable
+
++ - / * opérateurs arithmétiques qui permettent de faire des calculs sur les nombres
+
+var x= 12;
+var y = 5;
+var resultat = x+y;
+console.log (resultat)
+cela affiche 17  etc etc
+
+nous avons aussi le % modulo c'est a dire qu'on va calculer combien de fois il y a de 5 dans 12 
+ici 
+
+var resultat = x%y;
+ici cela fera 2
+
+nous avons les opérateurs ++ -- += -=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
